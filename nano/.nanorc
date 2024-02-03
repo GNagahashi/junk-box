@@ -1,0 +1,22 @@
+#
+# nano editor setting
+#
+# References:
+#   - https://www.nano-editor.org/
+#   - https://www.nano-editor.org/dist/latest/nanorc.5.html
+
+set atblanks
+set autoindent
+set emptyline
+set linenumbers
+set minibar
+set nohelp
+set softwrap
+set tabsize 4
+set tabstospaces
+
+set numbercolor white gray
+set statuscolor white gray
+set titlecolor white gray
+
+unset stateflags
