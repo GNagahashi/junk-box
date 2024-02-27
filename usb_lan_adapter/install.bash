@@ -21,6 +21,7 @@ sudo make install
 echo '>> Load driver'
 sudo modprobe ax_usb_nic
 
+cd ../
 echo '>> Remove files'
 echo '-' ${FILENAME_BEFORE_EXTRACT}
 rm ${FILENAME_BEFORE_EXTRACT}
